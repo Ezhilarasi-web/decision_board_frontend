@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1e293b" />
+  <text x="400" y="40" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">Ad Spend vs Revenue Comparison</text>
+  
+  <!-- Axes -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#718096" stroke-width="2" />
+  <line x1="100" y1="100" x2="100" y2="400" stroke="#718096" stroke-width="2" />
+  
+  <!-- X-axis labels -->
+  <text x="175" y="430" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="middle">Q1</text>
+  <text x="325" y="430" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="middle">Q2</text>
+  <text x="475" y="430" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="middle">Q3</text>
+  <text x="625" y="430" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="middle">Q4</text>
+  
+  <!-- Y-axis labels -->
+  <text x="80" y="400" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="end">$0M</text>
+  <text x="80" y="325" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="end">$1M</text>
+  <text x="80" y="250" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="end">$2M</text>
+  <text x="80" y="175" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="end">$3M</text>
+  <text x="80" y="100" font-family="Arial" font-size="14" fill="#a0aec0" text-anchor="end">$4M</text>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="325" x2="700" y2="325" stroke="#374151" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#374151" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="175" x2="700" y2="175" stroke="#374151" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#374151" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Q1 Bars -->
+  <!-- Ad Spend Q1 -->
+  <rect x="145" y="300" width="30" height="100" fill="url(#adSpendGradient)" />
+  <!-- Revenue Q1 -->
+  <rect x="175" y="200" width="30" height="200" fill="url(#revenueGradient)" />
+  
+  <!-- Q2 Bars -->
+  <!-- Ad Spend Q2 -->
+  <rect x="295" y="275" width="30" height="125" fill="url(#adSpendGradient)" />
+  <!-- Revenue Q2 -->
+  <rect x="325" y="150" width="30" height="250" fill="url(#revenueGradient)" />
+  
+  <!-- Q3 Bars -->
+  <!-- Ad Spend Q3 -->
+  <rect x="445" y="250" width="30" height="150" fill="url(#adSpendGradient)" />
+  <!-- Revenue Q3 -->
+  <rect x="475" y="125" width="30" height="275" fill="url(#revenueGradient)" />
+  
+  <!-- Q4 Bars -->
+  <!-- Ad Spend Q4 -->
+  <rect x="595" y="225" width="30" height="175" fill="url(#adSpendGradient)" />
+  <!-- Revenue Q4 -->
+  <rect x="625" y="100" width="30" height="300" fill="url(#revenueGradient)" />
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="adSpendGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.6" />
+    </linearGradient>
+    <linearGradient id="revenueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#4ade80" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Legend -->
+  <rect x="550" y="50" width="15" height="15" fill="url(#adSpendGradient)" />
+  <text x="575" y="63" font-family="Arial" font-size="14" fill="#ffffff">Ad Spend</text>
+  
+  <rect x="550" y="75" width="15" height="15" fill="url(#revenueGradient)" />
+  <text x="575" y="88" font-family="Arial" font-size="14" fill="#ffffff">Revenue</text>
+</svg> 

@@ -1,0 +1,24 @@
+subgraph cluster_legend {
+        label = "Legend";
+        fontsize = 10;
+        margin = 10;
+
+        // Legend for arrow types
+        LegendNormal [label="→ : Standard dependency", shape=plaintext];
+        LegendBidirectionalCircle [label="↔ : Bidirectional dependency (circle indicates a special mutual relationship)", shape=plaintext];
+
+        // Legend entries for file type color coding
+        LegendTS [label=".ts", style=filled, fillcolor="#ddfeff", fontcolor=black];
+        LegendTSX [label=".tsx", style=filled, fillcolor="#bbfeff", fontcolor=black];
+        LegendCSS [label=".css/asset", style=filled, fontcolor=black];
+        LegendData [label="dummy data", style=filled, fontcolor=black, fillcolor="#FFCCCB"]
+        LegendUtility [label="helpers/config", style=filled, fontcolor=black, fillcolor="#ccffcc"]
+
+        // Arrange the legend nodes with invisible edges to enforce ordering
+        LegendNormal -> LegendBidirectionalCircle [style=invis];
+        LegendBidirectionalCircle -> LegendTS [style=invis];
+        LegendTS -> LegendTSX [style=invis];
+        LegendTSX -> LegendCSS [style=invis];
+        LegendCSS -> LegendData [style=invis];
+        LegendData -> LegendUtility [style=invis];
+    }

@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graph><nodes><node id="YPgt3lzj57gcY4cnK-JQ-20" type="root"><content>VP of Marketing</content></node><node id="YPgt3lzj57gcY4cnK-JQ-70" type="strategicInquiry"><content>What are the industry trends?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-73" type="guidingInquiry"><content>What are my growth opportunities?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-77" type="guidingInquiry"><content>How are my target demographics evolving?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-78" type="guidingInquiry"><content>What are the buying habits and patterns of our target audience?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-79" type="guidingInquiry"><content>How does demographic vary across market segments?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-80" type="guidingInquiry"><content>Which geographical locations are my target demographics in?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-81" type="guidingInquiry"><content>Are there any new geographies / locations we can target?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-85" type="guidingInquiry"><content>What is the market health?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-86" type="guidingInquiry"><content>Are there any new regulations?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-87" type="guidingInquiry"><content>How are the socio-economic conditions?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-88" type="guidingInquiry"><content>How is the category growing?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-92" type="guidingInquiry"><content>Are there unmet needs of customers that we can meet with a new product?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-151" type="keyParadigm"><content>Market Performance</content></node><node id="YPgt3lzj57gcY4cnK-JQ-159" type="kpi"><content>
+Average order value (AOV)
+
+Time-of-Day and Day-of-Week Sales
+
+Conversion Rate
+
+Engagement Metrics</content></node><node id="YPgt3lzj57gcY4cnK-JQ-160" type="kpi"><content>Average Order Value (AOV)
+
+Sales Data by Segment
+
+Demographic Data
+
+Segment-Wise Metrics
+
+</content></node><node id="YPgt3lzj57gcY4cnK-JQ-166" type="guidingInquiry"><content>How well are my competitors doing?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-169" type="strategicInquiry"><content>Has my brand awareness changed?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-173" type="guidingInquiry"><content>Have I changed my touchpoint strategy for marketing?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-175" type="guidingInquiry"><content>How are competitors positioning themselves in the market?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-177" type="guidingInquiry"><content>What innovations or marketing strategies are competitors using that could affect us?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-179" type="guidingInquiry"><content>Are there any major threats or disruptions from new threats or substitutes?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-184" type="keyParadigm"><content>Brand Awareness</content></node><node id="YPgt3lzj57gcY4cnK-JQ-186" type="guidingInquiry"><content>Have I changed the active marketing channels?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-188" type="guidingInquiry"><content>Have I changed the frequency of marketing campaigns?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-190" type="guidingInquiry"><content>Has my target audience changed?</content></node><node id="YPgt3lzj57gcY4cnK-JQ-192" type="kpi"><content>Customer Survey Data by Age
+
+Customer Feedback by Age
+
+Sales Data by Age
+
+Engagement Metrics by Age</content></node><node id="YPgt3lzj57gcY4cnK-JQ-193" type="kpi"><content>
+Open Rate
+
+Click-Through Rate
+
+Unsubscribe Rate
+
+Sales Uplift</content></node><node id="YPgt3lzj57gcY4cnK-JQ-194" type="kpi"><content>
+Digital Engagement Rate
+
+Return on Ad Spend
+
+Customer Acquisition Cost
+
+Click-Through Rate</content></node><node id="YPgt3lzj57gcY4cnK-JQ-196" type="kpi"><content>
+Market Share
+
+Sales Trends
+
+Adoption Rate</content></node><node id="YPgt3lzj57gcY4cnK-JQ-197" type="kpi"><content>
+Market Share
+
+Customer Growth
+
+Competitor Engagement Rate
+
+Sales Trend Analysis</content></node><node id="mNuEp3emRqxpCXCxwbgn-12" type="scenario"><content>Engagement rate on social media has significantly increased while engagement on traditional media has declined.</content></node><node id="mNuEp3emRqxpCXCxwbgn-15" type="scenario"><content>Drop in customer engagement and sales, potentially due to too frequent email marketing campaigns.</content></node><node id="mNuEp3emRqxpCXCxwbgn-20" type="endDecision"><content>
+B1. Increase investment in social media advertising and reduce spending on traditional media.
+
+B2. Develop targeted content for high-performing digital channels.
+
+B3. Partner with influencers who have a strong following in the target demographic.</content></node><node id="mNuEp3emRqxpCXCxwbgn-23" type="scenario"><content>Demographic shift in the customer base, with a noticeable increase in younger consumers engaging with the brand.</content></node><node id="mNuEp3emRqxpCXCxwbgn-28" type="scenario"><content>Geographic shift in the customer base, with increasing sales in new regions previously not targeted.</content></node><node id="mNuEp3emRqxpCXCxwbgn-33" type="kpi"><content>Customer Survey Data by Region
+
+Customer Feedback by Region
+
+Sales Data by Region
+
+Engagement Metrics by Region</content></node><node id="mNuEp3emRqxpCXCxwbgn-34" type="scenario"><content>Major competitors have successfully adopted interactive content and AI-driven personalization, leading to higher engagement rates.</content></node><node id="mNuEp3emRqxpCXCxwbgn-38" type="scenario"><content>Industry reports indicate a new technological development that could disrupt the market, such as a new sustainable material that could replace current offerings.</content></node><node id="mNuEp3emRqxpCXCxwbgn-39" type="scenario"><content>Significant increase in market share of a new entrant offering innovative products or services that are substitutes to the company's offerings.</content></node><node id="mNuEp3emRqxpCXCxwbgn-47" type="kpi"><content>
+Market Share
+
+Sales Trends
+
+Adoption Rate
+
+Customer Churn Rate</content></node><node id="mNuEp3emRqxpCXCxwbgn-48" type="scenario"><content>Competitors are gaining market share by emphasizing superior customer service and experience.</content></node><node id="mNuEp3emRqxpCXCxwbgn-49" type="scenario"><content>Competitors are successfully positioning themselves as eco-friendly and sustainable, leading to an increase in their customer base.</content></node><node id="mNuEp3emRqxpCXCxwbgn-54" type="kpi"><content>Customer Satisfaction Scores
+
+Net Promoter Score
+
+Market Share
+
+Churn Rate</content></node><node id="cFT7xG2q82qPd6TsrK2h-78" type="scenario"><content>Increase in purchases during weekends and a spike in evening transactions, indicating a preference for shopping outside typical working hours.</content></node><node id="cFT7xG2q82qPd6TsrK2h-82" type="scenario"><content>High-income customers predominantly purchase expensive products, while mid-income customers favor mid-range products, and lower-income customers prefer budget products.</content></node><node id="cFT7xG2q82qPd6TsrK2h-86" type="scenario"><content>Urban areas have a higher concentration of the target demographic for premium products compared to rural areas.</content></node><node id="cFT7xG2q82qPd6TsrK2h-89" type="kpi"><content>Average Order Value (AOV)
+
+Sales Data by Geography
+
+Demographic Data
+
+</content></node><node id="cFT7xG2q82qPd6TsrK2h-90" type="scenario"><content>Market research identifies untapped potential in fast-growing suburban areas with increasing population density and rising disposable incomes.</content></node><node id="cFT7xG2q82qPd6TsrK2h-94" type="kpi"><content>Population Growth Rate
+
+Average Income by Region
+
+Customer Acquisition Cost
+
+</content></node><node id="cFT7xG2q82qPd6TsrK2h-95" type="scenario"><content>Market research identifies emerging markets with a growing middle class and increasing disposable income, such as certain regions in Southeast Asia.</content></node><node id="cFT7xG2q82qPd6TsrK2h-99" type="kpi"><content>Market Growth Rate
+
+Average Income by Region
+
+Customer Acquisition Cost
+
+</content></node><node id="cFT7xG2q82qPd6TsrK2h-100" type="scenario"><content>Customer feedback and survey data indicate a strong demand for eco-friendly and sustainable packaging options that are currently not being met by existing products.</content></node><node id="cFT7xG2q82qPd6TsrK2h-104" type="kpi"><content>Market Demand
+
+Customer Feedback
+
+Customer Survey Data
+
+Competitor Analysis
+
+</content></node><node id="cFT7xG2q82qPd6TsrK2h-105" type="scenario"><content>Economic indicators show a rising unemployment rate and reduced consumer spending in key markets, affecting overall sales performance.</content></node><node id="cFT7xG2q82qPd6TsrK2h-108" type="kpi"><content>
+Consumer Spending Data
+
+Unemployment Rate
+
+Sales Performance
+
+Customer Sentiment Analysis
+
+</content></node><node id="cFT7xG2q82qPd6TsrK2h-110" type="scenario"><content>Sudden growth in a category over the past few months, indicating increased consumer interest and demand.</content></node><node id="cFT7xG2q82qPd6TsrK2h-115" type="scenario"><content>New environmental regulations are introduced that require companies to reduce their carbon footprint and adopt more sustainable practices.</content></node><node id="cFT7xG2q82qPd6TsrK2h-116" type="scenario"><content>New government regulations are introduced that mandate stricter data privacy measures for online businesses, impacting how customer data can be collected and used.</content></node><node id="cFT7xG2q82qPd6TsrK2h-126" type="kpi"><content>
+Environmental Impact Metrics
+
+Compliance Rate
+
+Cost of Implementing Sustainable Practices
+
+</content></node><node id="cFT7xG2q82qPd6TsrK2h-127" type="kpi"><content>
+Private Customer Data
+
+Compliance Rate
+
+Marketing ROI
+
+</content></node><node id="Hscw7hNjwjnw59AHuLkt-0" type="endDecision"><content>
+B4. Reduce the frequency of email campaigns and focus on higher quality, more personalized content.
+
+B5. Conduct customer surveys to understand preferences for email frequency.
+
+B6. Implement A/B testing to find the optimal email sending frequency.</content></node><node id="Hscw7hNjwjnw59AHuLkt-1" type="endDecision"><content>
+B7. Adjust marketing messages and channels to better appeal to the younger demographic.
+
+B8. Create campaigns that resonate with the values and interests of the new target audience.
+
+B9. Collaborate with brands and influencers popular among the younger demographic.</content></node><node id="Hscw7hNjwjnw59AHuLkt-2" type="endDecision"><content>
+B10. Increase marketing efforts in the growing regions, such as localized campaigns and region-specific content.
+
+B11. Establish partnerships with local influencers and businesses in the new regions.
+
+B12. Adjust the product offerings to better cater to the preferences of the new regional audience.</content></node><node id="Hscw7hNjwjnw59AHuLkt-3" type="endDecision"><content>
+B13. Invest in developing interactive content like quizzes, polls, and interactive videos.
+
+B14. Implement AI-driven personalization in marketing campaigns to enhance customer experience.
+
+B15. Monitor competitor strategies regularly and adapt quickly to emerging trends.</content></node><node id="Hscw7hNjwjnw59AHuLkt-4" type="endDecision"><content>
+B22. Conduct research and development to explore the new technological development and its potential applications.
+
+B23. Diversify the product portfolio to include offerings made from the new sustainable material.
+
+B24. Educate the market and customers on the benefits of the new technology through targeted marketing campaigns.</content></node><node id="Hscw7hNjwjnw59AHuLkt-5" type="endDecision"><content>
+B25. Conduct a competitive analysis to understand the strengths of the new entrant.
+
+B26. Innovate and improve existing products to differentiate from substitutes.
+
+B27. Enhance customer loyalty programs to retain existing customers.</content></node><node id="Hscw7hNjwjnw59AHuLkt-6" type="endDecision"><content>
+B28. Invest in training and development programs to enhance customer service quality.
+
+B29. Implement customer feedback mechanisms to continuously improve the customer experience.
+
+B30. Highlight the company’s customer service excellence in marketing campaigns to attract and retain customers.</content></node><node id="Hscw7hNjwjnw59AHuLkt-7" type="endDecision"><content>
+B31.  Reposition the brand to highlight sustainability efforts and eco-friendly products.
+
+B32.  Launch a marketing campaign focused on the company’s sustainability initiatives.
+
+B33. Partner with environmental organizations and obtain certifications to enhance credibility.</content></node><node id="Hscw7hNjwjnw59AHuLkt-9" type="endDecision"><content>
+P1. Schedule promotional campaigns and flash sales during peak shopping times to maximize engagement and sales.
+
+P2. Adjust customer service hours to align with peak shopping times to provide timely support.
+
+P3. Optimize website performance and ensure seamless checkout experiences during these peak periods.</content></node><node id="Hscw7hNjwjnw59AHuLkt-10" type="endDecision"><content>
+P4. Tailor product offerings and marketing messages to resonate with the preferences of each income segment.
+
+P5. Introduce tiered product lines to cater to different income segments within each market segment.
+
+P6. Develop targeted loyalty programs for each income group to enhance customer retention.</content></node><node id="Hscw7hNjwjnw59AHuLkt-11" type="endDecision"><content>
+P7. Focus marketing efforts for premium products on urban areas through targeted online ads and city-specific promotions.
+
+P8. Establish partnerships with high-end retailers and specialty stores in urban regions.
+
+P9. Customize product offerings to better suit the preferences and needs of customers in urban areas.</content></node><node id="Hscw7hNjwjnw59AHuLkt-12" type="endDecision"><content>
+P10. Conduct localized market research to understand the specific needs and preferences of suburban customers.
+
+P11. Develop targeted marketing strategies and localized campaigns to penetrate the suburban market.
+
+P12. Establish partnerships with local retailers and service providers to increase brand presence and accessibility in suburban areas.</content></node><node id="Hscw7hNjwjnw59AHuLkt-13" type="endDecision"><content>
+P13. Conduct a market entry analysis to understand the potential and risks of expanding into the identified regions.
+
+P14. Develop localized marketing strategies and partnerships with local distributors and retailers.
+
+P15. Allocate budget and resources to pilot marketing campaigns in the new geographies to gauge interest and effectiveness.</content></node><node id="Hscw7hNjwjnw59AHuLkt-14" type="endDecision"><content>
+P16. Invest in research and development to create eco-friendly and sustainable packaging options.
+
+P17. Launch a marketing campaign highlighting the new eco-friendly packaging to attract environmentally conscious customers.
+
+P18. Monitor customer feedback and sales performance to iterate and improve the new product offering.</content></node><node id="Hscw7hNjwjnw59AHuLkt-15" type="endDecision"><content>
+P25. Adjust pricing strategies to offer more budget-friendly options and promotions to attract price-sensitive customers.
+
+P26. Increase focus on essential and value-for-money products that are more likely to appeal during economic downturns.
+
+P27. Strengthen loyalty programs to retain existing customers and encourage repeat purchases.</content></node><node id="Hscw7hNjwjnw59AHuLkt-16" type="endDecision"><content>
+P28. Increase the variety and availability of products or services within the growing category to meet the rising demand.
+
+P29. Invest in targeted marketing campaigns and promotions to capitalize on the growing interest in the category and attract more customers.
+
+P30. Develop and implement strategies to retain new customers and encourage repeat purchases, such as loyalty programs, personalized offers, and enhanced customer support.</content></node><node id="Hscw7hNjwjnw59AHuLkt-17" type="endDecision"><content>
+P31. Conduct a sustainability audit to identify areas for improvement and ensure compliance with new regulations.
+
+P32. Invest in sustainable practices and materials to reduce the company's carbon footprint.
+
+P33. Communicate sustainability efforts transparently to customers through marketing campaigns, enhancing brand image and trust.</content></node><node id="Hscw7hNjwjnw59AHuLkt-18" type="endDecision"><content>
+P34. Implement robust data privacy measures and ensure all marketing practices comply with new regulations.
+
+P35. Communicate transparently with customers about how their data is used and the steps taken to protect their privacy.
+
+P36. Invest in alternative data collection methods that do not compromise customer privacy, such as anonymized data analysis and aggregated insights.</content></node><node id="w59AwYlCWCMRClqTKe76-2" type="scenario"><content>Competitors have implemented SEO strategies leading to increased search engine rank and online sales.</content></node><node id="w59AwYlCWCMRClqTKe76-3" type="scenario"><content>Competitors are increasing trade marketing investments leading to increased share of shelf and sales.</content></node><node id="w59AwYlCWCMRClqTKe76-8" type="endDecision"><content>
+B16. Invest in improving the company’s SEO efforts by optimizing website content, product pages, and blog posts to rank higher on search engines.
+
+B17. Increase investment in paid search (PPC) campaigns to compete for visibility on search engines while organic rankings improve.
+
+B18. Focus on improving the technical aspects of the website, such as site speed, mobile optimization, and UX design, to boost SEO rankings and conversion rates.</content></node><node id="w59AwYlCWCMRClqTKe76-10" type="kpi"><content>
+Search Engine Ranking
+
+Organic Search Traffic
+
+Engagement Metrics
+
+Online Sales</content></node><node id="w59AwYlCWCMRClqTKe76-11" type="endDecision"><content>
+B19. Increase trade marketing investments to offer competitive incentives to retailers, such as volume discounts, co-op advertising funds, or exclusive promotions, to maintain or grow shelf space.
+
+B20. Implement tailored in-store marketing programs to improve product visibility and engagement, including eye-catching displays, endcaps, and promotional materials.
+
+B21.  Use data analytics to provide retailers with insights on category management, showcasing how the company’s products contribute to category growth and profitability.</content></node><node id="w59AwYlCWCMRClqTKe76-15" type="kpi"><content>
+Retailer Adoption Rate
+
+Share of Shelf
+
+Sell-Through Rate
+
+Trade Marketing ROI</content></node><node id="w59AwYlCWCMRClqTKe76-17" type="guidingInquiry"><content>Are there any opportunities for mergers or partnerships?</content></node><node id="w59AwYlCWCMRClqTKe76-19" type="scenario"><content>Competitors have exclusive agreements with retailers, ensuring that their products receive prime shelf placement.</content></node><node id="w59AwYlCWCMRClqTKe76-20" type="scenario"><content>Competitors are pursuing mergers and acquisitions to strengthen market position and expand product offerings.</content></node><node id="w59AwYlCWCMRClqTKe76-21" type="endDecision"><content>
+P19. Engage in negotiations with key retailers to establish strategic partnerships that offer competitive terms, possibly including exclusive or prioritized shelf space for specific products.
+
+P20. Develop and propose unique product lines or exclusive bundles that can only be found at specific retailers, creating a compelling reason for them to allocate shelf space to your brand.
+
+P21. Increase marketing support for retailers through co-branding initiatives, joint marketing campaigns, or promotional events that benefit both parties, strengthening relationships and incentivizing shelf space.</content></node><node id="w59AwYlCWCMRClqTKe76-22" type="endDecision"><content>
+P22. Conduct market research to identify potential acquisition targets that can complement the company’s existing product line or enhance market reach, ensuring alignment with strategic goals.
+
+P23. Revise the brand positioning and communication strategy to clearly articulate the value proposition of the company in light of competitor mergers, highlighting strengths and differentiating factors.
+
+P24. Increase investment in research and development to innovate new products or enhance existing offerings, ensuring the company remains competitive in the evolving market landscape post-merger.</content></node><node id="w59AwYlCWCMRClqTKe76-24" type="kpi"><content>Share of Shelf
+
+Retailer Satisfaction Score
+
+Retailer Promotion Participation Rate
+
+</content></node><node id="w59AwYlCWCMRClqTKe76-31" type="kpi"><content>Brand Equity
+
+Customer Perception Score
+
+Sales Analysis
+
+</content></node><node id="w59AwYlCWCMRClqTKe76-34" type="keyParadigm"><content>Market Share &amp; Revenue</content></node><node id="w59AwYlCWCMRClqTKe76-37" type="guidingInquiry"><content>What are the sales trends for our products?</content></node><node id="w59AwYlCWCMRClqTKe76-38" type="guidingInquiry"><content>Which promotional activities have driven sales growth?</content></node><node id="w59AwYlCWCMRClqTKe76-40" type="guidingInquiry"><content>What are the peak / off-peak sales periods for our products?</content></node><node id="w59AwYlCWCMRClqTKe76-42" type="scenario"><content>Sales volume stagnant during summer months.</content></node><node id="w59AwYlCWCMRClqTKe76-45" type="guidingInquiry"><content>Are there opportunities for pricing adjustments?</content></node><node id="w59AwYlCWCMRClqTKe76-47" type="scenario"><content>Stagnant revenue but increased sales volume.</content></node><node id="w59AwYlCWCMRClqTKe76-49" type="guidingInquiry"><content>How effective are our
+pricing strategies?</content></node><node id="w59AwYlCWCMRClqTKe76-51" type="strategicInquiry"><content>How is our market share and revenue?</content></node><node id="w59AwYlCWCMRClqTKe76-53" type="guidingInquiry"><content>Are there emerging competitors?</content></node><node id="w59AwYlCWCMRClqTKe76-54" type="guidingInquiry"><content>Are we effectively increasing market share in targeted segments?</content></node><node id="w59AwYlCWCMRClqTKe76-58" type="guidingInquiry"><content>How is our market share changing?</content></node><node id="w59AwYlCWCMRClqTKe76-61" type="guidingInquiry"><content>How is our revenue changing?</content></node><node id="w59AwYlCWCMRClqTKe76-62" type="guidingInquiry"><content>Are we maximizing the returns on market spends across channels?</content></node><node id="w59AwYlCWCMRClqTKe76-64" type="scenario"><content>Return on ad-spend declined below target.</content></node><node id="w59AwYlCWCMRClqTKe76-66" type="scenario"><content>Market share is stable but competitors are growing.</content></node><node id="w59AwYlCWCMRClqTKe76-71" type="scenario"><content>Small price increase resulting in significant drop in demand.</content></node><node id="w59AwYlCWCMRClqTKe76-74" type="scenario"><content>Revenue increased due to improved customer retention.</content></node><node id="w59AwYlCWCMRClqTKe76-76" type="scenario"><content>
+Significant revenue growth from newly launched products.
+</content></node><node id="w59AwYlCWCMRClqTKe76-80" type="scenario"><content>Market share increasing in specific categories.</content></node><node id="w59AwYlCWCMRClqTKe76-82" type="scenario"><content>
+Market share gains in online channels.
+</content></node><node id="w59AwYlCWCMRClqTKe76-85" type="scenario"><content>Revenue increasing but gross margin declining.</content></node><node id="w59AwYlCWCMRClqTKe76-86" type="kpi"><content>Return on Ad Spend (ROAS)</content></node><node id="w59AwYlCWCMRClqTKe76-87" type="kpi"><content>Sales Volume
+
+Revenue</content></node><node id="w59AwYlCWCMRClqTKe76-88" type="kpi"><content>Price Elasticity</content></node><node id="w59AwYlCWCMRClqTKe76-89" type="kpi"><content>Gross Margin</content></node><node id="w59AwYlCWCMRClqTKe76-90" type="kpi"><content>Sales Volume by Month/Season</content></node><node id="w59AwYlCWCMRClqTKe76-91" type="kpi"><content>Sales Lift
+
+Customer Retention Rate
+
+</content></node><node id="w59AwYlCWCMRClqTKe76-92" type="kpi"><content>Sales from
+
+New Launches</content></node><node id="w59AwYlCWCMRClqTKe76-93" type="kpi"><content>Market Share
+
+Growth Rate</content></node><node id="w59AwYlCWCMRClqTKe76-94" type="kpi"><content>Market Share
+
+Growth Rate</content></node><node id="w59AwYlCWCMRClqTKe76-95" type="kpi"><content>Market Share
+
+Share of Voice
+
+Competitor Data</content></node><node id="w59AwYlCWCMRClqTKe76-96" type="endDecision"><content>
+M1. Optimize or pause underperforming campaigns.
+
+M2. Reallocate budget towards channels with higher ROAS.
+
+M3. A/B test ad creatives, audience segments to identify higher-performing combinations.</content></node><node id="w59AwYlCWCMRClqTKe76-97" type="endDecision"><content>
+M7. Consider reassessing pricing strategies.
+
+M8. Limit heavy discounting.
+
+M9. Implement upsell and cross-sell strategies.</content></node><node id="w59AwYlCWCMRClqTKe76-98" type="endDecision"><content>
+M10. Avoid raising prices.
+
+M11. Focus on cost optimization.
+
+M12. Explore alternate revenue sources such as upsell or cross-sell or services.</content></node><node id="w59AwYlCWCMRClqTKe76-99" type="endDecision"><content>
+M13. Optimize cost to improve margins.
+
+M14. Limit discounts and promotions.
+
+M15. Gradually raise prices on premium or high demand products to protect margin.</content></node><node id="w59AwYlCWCMRClqTKe76-100" type="endDecision"><content>
+M16. Develop specific summer-themed campaigns.
+
+M17. Partner with influencers to boost visibility.
+
+M18. Introduce time-limited offers tailored to summer shopping trends to create urgency and boost sales.</content></node><node id="w59AwYlCWCMRClqTKe76-101" type="endDecision"><content>
+M19. Double down on loyalty programs, subscription models.
+
+M20. Implement customer referral incentives.
+
+M21. Focus on enhancing customer experience, post-purchase engagement to sustain retention rates.</content></node><node id="w59AwYlCWCMRClqTKe76-102" type="endDecision"><content>
+M22. Continue invest in marketing and R&amp;D  for these products.
+
+M23. Broaden availability to additional channels or regions.
+
+M24. Ensure new products meet customer expectations and adjust based on feedback.</content></node><node id="w59AwYlCWCMRClqTKe76-103" type="endDecision"><content>
+M25. Optimize e-commerce strategy, invest more in digital advertising.
+
+M26. Diversify online partnership to improve presence on popular platforms.
+
+M27. Leverage online customer data to deliver personalized recommendations, enhance online shopping experience.</content></node><node id="w59AwYlCWCMRClqTKe76-104" type="endDecision"><content>
+M28. Increase Investment in high-performing categories.
+
+M29. Broaden availability across more channels.
+
+M30. Cross promote with growing categories to maximize purchase.</content></node><node id="w59AwYlCWCMRClqTKe76-105" type="endDecision"><content>
+M31. Conduct deep competitive analysis to dive into competitors' strategies (e.g. new product launches, marketing campaigns).
+
+M32. Boost advertising, promotions to capture more share.
+
+M33. Enhance product features or packaging to differentiate from competitors.</content></node><node id="w59AwYlCWCMRClqTKe76-108" type="scenario"><content>Price Competitiveness Index worsened by 15% against competitor.</content></node><node id="w59AwYlCWCMRClqTKe76-109" type="kpi"><content>Price Competitiveness Index</content></node><node id="w59AwYlCWCMRClqTKe76-110" type="endDecision"><content>
+M34. Explore options for pricing strategy.
+
+M35. Introduce value-oriented product line to compete directly with the lower-priced competitor.
+
+M36. Emphasize product quality, customer service, additional value-adds in marketing to justify current price.</content></node><node id="w59AwYlCWCMRClqTKe76-111" type="endDecision"><content>
+M4. Conduct Channel performance audit.
+
+M5. Focus on Target Marketing.
+
+M6. Test and refine messages across campaigns to drive better revenue.</content></node><node id="w59AwYlCWCMRClqTKe76-113" type="scenario"><content>Total Revenue-to-Marketing-Spend (MER) declined from 10:1 to 7:1.</content></node><node id="w59AwYlCWCMRClqTKe76-115" type="kpi"><content>Marketing
+
+Efficiency
+
+Ratio (MER)</content></node><node id="w59AwYlCWCMRClqTKe76-117" type="strategicInquiry"><content>Are we reaching our target audience effectively?</content></node><node id="w59AwYlCWCMRClqTKe76-118" type="strategicInquiry"><content>What are the trends in consumer behavior?</content></node><node id="w59AwYlCWCMRClqTKe76-122" type="guidingInquiry"><content>How do seasonality impact customer behavior?</content></node><node id="w59AwYlCWCMRClqTKe76-124" type="guidingInquiry"><content>How are customers reacting to social/cultural shifts?</content></node><node id="w59AwYlCWCMRClqTKe76-125" type="keyParadigm"><content>Customer Engagement
+&amp; Loyalty</content></node><node id="w59AwYlCWCMRClqTKe76-126" type="guidingInquiry"><content>How effective are our customer engagement channels?
+</content></node><node id="w59AwYlCWCMRClqTKe76-127" type="guidingInquiry"><content>How are the customer reacting to brand marketing?</content></node><node id="w59AwYlCWCMRClqTKe76-128" type="guidingInquiry"><content>What are the demographic profiles of our target customers?</content></node><node id="w59AwYlCWCMRClqTKe76-130" type="guidingInquiry"><content>How effective are our customer retention strategies?</content></node><node id="w59AwYlCWCMRClqTKe76-131" type="guidingInquiry"><content>What are the most common reason for customer churn?</content></node><node id="w59AwYlCWCMRClqTKe76-135" type="strategicInquiry"><content>Are we reducing customer churn and improving long term retention effectively?</content></node><node id="w59AwYlCWCMRClqTKe76-136" type="guidingInquiry"><content>How are customer reacting to promotions?</content></node><node id="w59AwYlCWCMRClqTKe76-139" type="guidingInquiry"><content>How are customer reacting to packaging?</content></node><node id="w59AwYlCWCMRClqTKe76-142" type="scenario"><content>Social media ads have a superior Conversion Rate compared to email campaigns.</content></node><node id="w59AwYlCWCMRClqTKe76-143" type="kpi"><content>Conversion Rate
+
+Engagement Metrics</content></node><node id="w59AwYlCWCMRClqTKe76-146" type="scenario"><content>High conversion rates among millennials but low among Gen-Z.</content></node><node id="w59AwYlCWCMRClqTKe76-148" type="kpi"><content>Conversion Rate by Demographic</content></node><node id="w59AwYlCWCMRClqTKe76-150" type="scenario"><content>Consumer purchasing patterns significantly fluctuate with seasons.</content></node><node id="w59AwYlCWCMRClqTKe76-152" type="kpi"><content>Sales Growth Percentage
+
+Inventory Turnover Rate</content></node><node id="w59AwYlCWCMRClqTKe76-154" type="scenario"><content>A survey shows that 70% of customers prefer eco-friendly packaging, butonly 40% of products use such materials.</content></node><node id="w59AwYlCWCMRClqTKe76-156" type="kpi"><content>Customer Sentiment Regarding Sustainability
+
+Customer Satisfaction Score (CSAT)
+
+</content></node><node id="w59AwYlCWCMRClqTKe76-158" type="scenario"><content>Brand Sentiment Score dropped after a marketing campaignthat didn’t resonate well.</content></node><node id="w59AwYlCWCMRClqTKe76-160" type="kpi"><content>Brand Sentiment Score
+
+Engagement Rate</content></node><node id="w59AwYlCWCMRClqTKe76-162" type="scenario"><content>A recent “buy one, get one free” promotion had a lower redemption rate than expected.</content></node><node id="w59AwYlCWCMRClqTKe76-164" type="kpi"><content>Promotion Success Rate
+
+Sales Uplift During Promotions</content></node><node id="w59AwYlCWCMRClqTKe76-166" type="scenario"><content>Packaging-related complaints have increased, particularly amongolder customers.</content></node><node id="w59AwYlCWCMRClqTKe76-168" type="kpi"><content>Complaint Rate
+
+Return Rate Due to Packaging Issues</content></node><node id="w59AwYlCWCMRClqTKe76-171" type="scenario"><content>Loyalty points redemption rate is only 20%, indicating disengagement.</content></node><node id="w59AwYlCWCMRClqTKe76-172" type="kpi"><content>Redemption Rate of Loyalty Points</content></node><node id="w59AwYlCWCMRClqTKe76-175" type="scenario"><content>Major complaints revolve around shipping delays and product quality.
+</content></node><node id="w59AwYlCWCMRClqTKe76-176" type="kpi"><content>Top Complaint Categories</content></node><node id="w59AwYlCWCMRClqTKe76-177" type="scenario"><content>New customers have a churn rate of 30% within three months.</content></node><node id="w59AwYlCWCMRClqTKe76-178" type="kpi"><content>Churn Rate Among New Customers</content></node><node id="w59AwYlCWCMRClqTKe76-183" type="endDecision"><content>
+C1. Simplify the redemption.
+
+process to enhance user-friendliness.
+
+C2. Increase visibility of rewards through personalized email and social media campaigns.
+
+C3. Introduce limited-time promotions to create urgency for redeeming points.</content></node><node id="w59AwYlCWCMRClqTKe76-184" type="endDecision"><content>
+C4. Implement a tracking system for customers to monitor shipments.
+
+C5. Improve product descriptions to set realistic expectations.
+
+C6. Initiate a quality assurance review to address product issues.</content></node><node id="w59AwYlCWCMRClqTKe76-185" type="endDecision"><content>
+C7. Develop an onboarding program that includes a welcome series and usage tips.
+
+C8. Offer special promotions for new customers to encourage repeat purchases.
+
+C9. Implement a follow-up survey after the first purchase to gather feedback on their experience.</content></node><node id="w59AwYlCWCMRClqTKe76-186" type="endDecision"><content>
+C16. Redesign packaging to be more user-friendly, especially for seniors.
+
+C17. Conduct focus groups and usability studies to test new designs.
+
+C18. Implement a quality control process to monitor packaging quality.</content></node><node id="w59AwYlCWCMRClqTKe76-187" type="endDecision"><content>
+C19. Experiment with alternative promotion formats, such as tiered discounts or loyalty-based rewards.
+
+C20. Analyze customer segments to tailor promotions more effectively.
+
+C21. Set measurable goals for future promotions to evaluate effectiveness.</content></node><node id="w59AwYlCWCMRClqTKe76-188" type="endDecision"><content>
+C22. Recalibrate the marketing message to better align with customer values.
+
+C23. Conduct focus groups to gather insights before launching future campaigns.
+
+C24. Implement a brand monitoring system to track sentiment and adjust strategies quickly.</content></node><node id="w59AwYlCWCMRClqTKe76-189" type="endDecision"><content>
+C25. Initiate a packaging redesign project to increase eco-friendly packaging.
+
+C26. Promote the new sustainable packaging through targeted marketing campaigns.
+
+C27. Monitor customer feedback on the new packaging and adjust as needed.</content></node><node id="w59AwYlCWCMRClqTKe76-190" type="endDecision"><content>
+C28. Increase inventory and marketing efforts for seasonal products based on historical sales data.
+
+C29. Develop seasonal promotions or themed bundles.
+
+C30. Analyze customer data to forecast trends and adapt marketing strategies accordingly.</content></node><node id="w59AwYlCWCMRClqTKe76-191" type="endDecision"><content>
+C40. Develop tailored campaigns for Gen Z focusing on social responsibility and sustainability.
+
+C41. Utilize platforms like TikTok to engage Gen Z more effectively.
+
+C42. Create content highlighting brand values that resonate with Gen Z to foster loyalty.</content></node><node id="w59AwYlCWCMRClqTKe76-192" type="guidingInquiry"><content>Are we effectively engaging and retaining our retailers and distributors?</content></node><node id="w59AwYlCWCMRClqTKe76-194" type="scenario"><content>The lower-than-expected sales growth from retailer partnerships suggests potential gaps in product variety and promotional strategies, which could be limiting overall revenue generation.</content></node><node id="w59AwYlCWCMRClqTKe76-195" type="kpi"><content>Sales Revenue by Retailer
+
+Average Order Value (AOV)
+
+Promotion Conversion Rate
+
+</content></node><node id="w59AwYlCWCMRClqTKe76-196" type="endDecision"><content>
+C37.  Introduce a wider variety of products based on sales performance analysis to meet diverse retailer needs.
+
+C38. Create targeted promotions that resonate with retailer segments, encouraging bulk purchases.
+
+C39.  Regularly analyze the success of promotional strategies to refine future efforts and maximize ROI.</content></node><node id="w59AwYlCWCMRClqTKe76-199" type="scenario"><content>Lower engagement and sales performance across different retailer segments suggest a need for a more targeted segmentation strategy to better address the needs of each group.</content></node><node id="w59AwYlCWCMRClqTKe76-200" type="kpi"><content>Segmented Sales Growth
+
+Engagement Rate by Segment
+
+Churn Rate by Segment</content></node><node id="w59AwYlCWCMRClqTKe76-201" type="endDecision"><content>
+C34.  Create specific marketing campaigns that address the unique needs and preferences of each retailer segment.
+
+C35.  Focus more marketing budget and efforts on high-potential retailer segments to maximize engagement.
+
+C36.  Monitor the performance of each segment frequently, adjusting strategies based on real-time data insights.</content></node><node id="w59AwYlCWCMRClqTKe76-203" type="scenario"><content>The lower rates of retailer loyalty and repeat purchases suggest that current loyalty schemes and incentives may not be fully effective, indicating a need for improvement in these areas.</content></node><node id="w59AwYlCWCMRClqTKe76-204" type="kpi"><content>Loyalty Program Participation Rate
+
+Redemption Rate of Incentives
+
+Repeat Purchase Rate</content></node><node id="w59AwYlCWCMRClqTKe76-205" type="endDecision"><content>
+C31.  Develop loyalty schemes that offer relevant rewards based on retailer purchasing behavior, ensuring they align with retailer needs.
+
+C32. Utilize targeted marketing campaigns to increase awareness and understanding of available incentives, encouraging retailers to participate.
+
+C33.  Monitor loyalty program performance and retailer feedback to make ongoing improvements, ensuring the program remains attractive and beneficial for retailers.</content></node><node id="w59AwYlCWCMRClqTKe76-209" type="guidingInquiry"><content>How Are customers reacting to repeat purchases?</content></node><node id="w59AwYlCWCMRClqTKe76-211" type="scenario"><content>The repeat purchase rate is lower than expected, indicating possible issues with customer satisfaction.</content></node><node id="w59AwYlCWCMRClqTKe76-213" type="kpi"><content>
+Repeat Purchase Rate
+
+Customer Satisfaction Score (CSAT)
+
+Email Open Rate for Follow-Up Communications</content></node><node id="w59AwYlCWCMRClqTKe76-214" type="endDecision"><content>
+C13. Send personalized follow-up emails to customers after their purchase.
+
+C14. Introduce a loyalty rewards program for repeat purchases.
+
+C15.  Regularly analyze customer feedback to identify areas for improvement.</content></node><node id="w59AwYlCWCMRClqTKe76-215" type="guidingInquiry"><content>How are we increasing wallet share among our customers?</content></node><node id="w59AwYlCWCMRClqTKe76-217" type="scenario"><content>The limited wallet share among existing customers suggests a need for more effective cross-selling strategies to drive additional sales.</content></node><node id="w59AwYlCWCMRClqTKe76-219" type="kpi"><content>
+Wallet Share Percentage
+
+Cross-Sell Conversion Rate
+
+Average Order Value (AOV)</content></node><node id="w59AwYlCWCMRClqTKe76-220" type="endDecision"><content>
+C10. Analyze purchasing patterns to identify opportunities for product bundling.
+
+C11. Create targeted marketing campaigns promoting complementary products.
+
+C12. Train sales teams on effective cross-selling techniques to maximize opportunities.</content></node><node id="w59AwYlCWCMRClqTKe76-238" type="endDecision"><content>
+C43.  Increase investment in social media ads to capitalize on their higher conversion rate.
+
+C44. Run A/B tests to improve email subject lines and content for better engagement.
+
+C45. Implement retargeting campaigns on social media to re-engage users who didn’t convert.</content></node><node id="mNuEp3emRqxpCXCxwbgn-57" type="kpi"><content>Brand Perception Survey
+
+Competitor Customer Acquisition Rate
+
+Market Share
+
+Adoption Rate of Eco-Friendly Products</content></node><node id="a9b6q9AH5aq5r09KpQK2-1" type="kpi"><content>
+Market ShareSales GrowthCustomer Acquisition Rate</content></node></nodes><edges><edge id="YPgt3lzj57gcY4cnK-JQ-52" source="YPgt3lzj57gcY4cnK-JQ-20" target="w59AwYlCWCMRClqTKe76-34" /><edge id="YPgt3lzj57gcY4cnK-JQ-66" source="YPgt3lzj57gcY4cnK-JQ-151" target="YPgt3lzj57gcY4cnK-JQ-70" /><edge id="YPgt3lzj57gcY4cnK-JQ-67" source="YPgt3lzj57gcY4cnK-JQ-70" target="YPgt3lzj57gcY4cnK-JQ-73" /><edge id="YPgt3lzj57gcY4cnK-JQ-68" source="" target="YPgt3lzj57gcY4cnK-JQ-77" /><edge id="YPgt3lzj57gcY4cnK-JQ-69" source="YPgt3lzj57gcY4cnK-JQ-70" target="YPgt3lzj57gcY4cnK-JQ-85" /><edge id="YPgt3lzj57gcY4cnK-JQ-71" source="YPgt3lzj57gcY4cnK-JQ-73" target="YPgt3lzj57gcY4cnK-JQ-81" /><edge id="w59AwYlCWCMRClqTKe76-16" source="YPgt3lzj57gcY4cnK-JQ-73" target="YPgt3lzj57gcY4cnK-JQ-92" /><edge id="w59AwYlCWCMRClqTKe76-18" source="YPgt3lzj57gcY4cnK-JQ-73" target="w59AwYlCWCMRClqTKe76-17" /><edge id="YPgt3lzj57gcY4cnK-JQ-74" source="YPgt3lzj57gcY4cnK-JQ-77" target="YPgt3lzj57gcY4cnK-JQ-78" /><edge id="YPgt3lzj57gcY4cnK-JQ-75" source="YPgt3lzj57gcY4cnK-JQ-77" target="YPgt3lzj57gcY4cnK-JQ-79" /><edge id="YPgt3lzj57gcY4cnK-JQ-76" source="YPgt3lzj57gcY4cnK-JQ-77" target="YPgt3lzj57gcY4cnK-JQ-80" /><edge id="cFT7xG2q82qPd6TsrK2h-91" source="YPgt3lzj57gcY4cnK-JQ-81" target="cFT7xG2q82qPd6TsrK2h-90" /><edge id="cFT7xG2q82qPd6TsrK2h-97" source="YPgt3lzj57gcY4cnK-JQ-81" target="cFT7xG2q82qPd6TsrK2h-95" /><edge id="YPgt3lzj57gcY4cnK-JQ-82" source="YPgt3lzj57gcY4cnK-JQ-85" target="YPgt3lzj57gcY4cnK-JQ-86" /><edge id="YPgt3lzj57gcY4cnK-JQ-83" source="YPgt3lzj57gcY4cnK-JQ-85" target="YPgt3lzj57gcY4cnK-JQ-87" /><edge id="YPgt3lzj57gcY4cnK-JQ-84" source="YPgt3lzj57gcY4cnK-JQ-85" target="YPgt3lzj57gcY4cnK-JQ-88" /><edge id="cFT7xG2q82qPd6TsrK2h-117" source="YPgt3lzj57gcY4cnK-JQ-86" target="cFT7xG2q82qPd6TsrK2h-115" /><edge id="cFT7xG2q82qPd6TsrK2h-118" source="YPgt3lzj57gcY4cnK-JQ-86" target="cFT7xG2q82qPd6TsrK2h-116" /><edge id="w59AwYlCWCMRClqTKe76-247" source="YPgt3lzj57gcY4cnK-JQ-87" target="cFT7xG2q82qPd6TsrK2h-105" /><edge id="cFT7xG2q82qPd6TsrK2h-112" source="YPgt3lzj57gcY4cnK-JQ-88" target="cFT7xG2q82qPd6TsrK2h-110" /><edge id="cFT7xG2q82qPd6TsrK2h-101" source="YPgt3lzj57gcY4cnK-JQ-92" target="cFT7xG2q82qPd6TsrK2h-100" /><edge id="YPgt3lzj57gcY4cnK-JQ-98" source="YPgt3lzj57gcY4cnK-JQ-78" target="cFT7xG2q82qPd6TsrK2h-78" /><edge id="YPgt3lzj57gcY4cnK-JQ-99" source="YPgt3lzj57gcY4cnK-JQ-79" target="cFT7xG2q82qPd6TsrK2h-82" /><edge id="YPgt3lzj57gcY4cnK-JQ-152" source="YPgt3lzj57gcY4cnK-JQ-20" target="YPgt3lzj57gcY4cnK-JQ-151" /><edge id="YPgt3lzj57gcY4cnK-JQ-154" source="YPgt3lzj57gcY4cnK-JQ-80" target="cFT7xG2q82qPd6TsrK2h-86" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-81" source="YPgt3lzj57gcY4cnK-JQ-159" target="Hscw7hNjwjnw59AHuLkt-9" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-83" source="YPgt3lzj57gcY4cnK-JQ-160" target="Hscw7hNjwjnw59AHuLkt-10" /><edge id="YPgt3lzj57gcY4cnK-JQ-164" source="YPgt3lzj57gcY4cnK-JQ-166" target="YPgt3lzj57gcY4cnK-JQ-175" /><edge id="YPgt3lzj57gcY4cnK-JQ-165" source="YPgt3lzj57gcY4cnK-JQ-166" target="YPgt3lzj57gcY4cnK-JQ-179" /><edge id="YPgt3lzj57gcY4cnK-JQ-167" source="YPgt3lzj57gcY4cnK-JQ-169" target="YPgt3lzj57gcY4cnK-JQ-173" /><edge id="YPgt3lzj57gcY4cnK-JQ-168" source="YPgt3lzj57gcY4cnK-JQ-169" target="YPgt3lzj57gcY4cnK-JQ-166" /><edge id="YPgt3lzj57gcY4cnK-JQ-170" source="YPgt3lzj57gcY4cnK-JQ-173" target="YPgt3lzj57gcY4cnK-JQ-186" /><edge id="YPgt3lzj57gcY4cnK-JQ-171" source="YPgt3lzj57gcY4cnK-JQ-173" target="YPgt3lzj57gcY4cnK-JQ-188" /><edge id="YPgt3lzj57gcY4cnK-JQ-172" source="YPgt3lzj57gcY4cnK-JQ-173" target="YPgt3lzj57gcY4cnK-JQ-190" /><edge id="mNuEp3emRqxpCXCxwbgn-50" source="YPgt3lzj57gcY4cnK-JQ-175" target="mNuEp3emRqxpCXCxwbgn-48" /><edge id="mNuEp3emRqxpCXCxwbgn-51" source="YPgt3lzj57gcY4cnK-JQ-175" target="mNuEp3emRqxpCXCxwbgn-49" /><edge id="w59AwYlCWCMRClqTKe76-4" source="YPgt3lzj57gcY4cnK-JQ-177" target="mNuEp3emRqxpCXCxwbgn-34" /><edge id="w59AwYlCWCMRClqTKe76-5" source="YPgt3lzj57gcY4cnK-JQ-177" target="w59AwYlCWCMRClqTKe76-2" /><edge id="w59AwYlCWCMRClqTKe76-14" source="YPgt3lzj57gcY4cnK-JQ-177" target="w59AwYlCWCMRClqTKe76-3" /><edge id="mNuEp3emRqxpCXCxwbgn-40" source="YPgt3lzj57gcY4cnK-JQ-179" target="mNuEp3emRqxpCXCxwbgn-38" /><edge id="mNuEp3emRqxpCXCxwbgn-41" source="YPgt3lzj57gcY4cnK-JQ-179" target="mNuEp3emRqxpCXCxwbgn-39" /><edge id="YPgt3lzj57gcY4cnK-JQ-183" source="YPgt3lzj57gcY4cnK-JQ-184" target="YPgt3lzj57gcY4cnK-JQ-169" /><edge id="mNuEp3emRqxpCXCxwbgn-13" source="YPgt3lzj57gcY4cnK-JQ-186" target="mNuEp3emRqxpCXCxwbgn-12" /><edge id="mNuEp3emRqxpCXCxwbgn-31" source="YPgt3lzj57gcY4cnK-JQ-188" target="mNuEp3emRqxpCXCxwbgn-15" /><edge id="mNuEp3emRqxpCXCxwbgn-24" source="YPgt3lzj57gcY4cnK-JQ-190" target="mNuEp3emRqxpCXCxwbgn-23" /><edge id="mNuEp3emRqxpCXCxwbgn-29" source="YPgt3lzj57gcY4cnK-JQ-190" target="mNuEp3emRqxpCXCxwbgn-28" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-64" source="YPgt3lzj57gcY4cnK-JQ-192" target="Hscw7hNjwjnw59AHuLkt-1" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-62" source="YPgt3lzj57gcY4cnK-JQ-193" target="Hscw7hNjwjnw59AHuLkt-0" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-60" source="YPgt3lzj57gcY4cnK-JQ-194" target="mNuEp3emRqxpCXCxwbgn-20" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-74" source="YPgt3lzj57gcY4cnK-JQ-196" target="Hscw7hNjwjnw59AHuLkt-4" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-68" source="YPgt3lzj57gcY4cnK-JQ-197" target="Hscw7hNjwjnw59AHuLkt-3" /><edge id="YPgt3lzj57gcY4cnK-JQ-198" source="YPgt3lzj57gcY4cnK-JQ-166" target="YPgt3lzj57gcY4cnK-JQ-177" /><edge id="YPgt3lzj57gcY4cnK-JQ-199" source="YPgt3lzj57gcY4cnK-JQ-20" target="YPgt3lzj57gcY4cnK-JQ-184" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-59" source="mNuEp3emRqxpCXCxwbgn-12" target="YPgt3lzj57gcY4cnK-JQ-194" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-61" source="mNuEp3emRqxpCXCxwbgn-15" target="YPgt3lzj57gcY4cnK-JQ-193" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-63" source="mNuEp3emRqxpCXCxwbgn-23" target="YPgt3lzj57gcY4cnK-JQ-192" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-65" source="mNuEp3emRqxpCXCxwbgn-28" target="mNuEp3emRqxpCXCxwbgn-33" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-66" source="mNuEp3emRqxpCXCxwbgn-33" target="Hscw7hNjwjnw59AHuLkt-2" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-67" source="mNuEp3emRqxpCXCxwbgn-34" target="YPgt3lzj57gcY4cnK-JQ-197" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-73" source="mNuEp3emRqxpCXCxwbgn-38" target="YPgt3lzj57gcY4cnK-JQ-196" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-75" source="mNuEp3emRqxpCXCxwbgn-39" target="mNuEp3emRqxpCXCxwbgn-47" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-76" source="mNuEp3emRqxpCXCxwbgn-47" target="Hscw7hNjwjnw59AHuLkt-5" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-78" source="mNuEp3emRqxpCXCxwbgn-48" target="mNuEp3emRqxpCXCxwbgn-54" /><edge id="mNuEp3emRqxpCXCxwbgn-56" source="mNuEp3emRqxpCXCxwbgn-57" target="Hscw7hNjwjnw59AHuLkt-7" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-79" source="mNuEp3emRqxpCXCxwbgn-54" target="Hscw7hNjwjnw59AHuLkt-6" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-80" source="cFT7xG2q82qPd6TsrK2h-78" target="YPgt3lzj57gcY4cnK-JQ-159" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-82" source="cFT7xG2q82qPd6TsrK2h-82" target="YPgt3lzj57gcY4cnK-JQ-160" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-84" source="cFT7xG2q82qPd6TsrK2h-86" target="cFT7xG2q82qPd6TsrK2h-89" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-85" source="cFT7xG2q82qPd6TsrK2h-89" target="Hscw7hNjwjnw59AHuLkt-11" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-86" source="cFT7xG2q82qPd6TsrK2h-90" target="cFT7xG2q82qPd6TsrK2h-94" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-87" source="cFT7xG2q82qPd6TsrK2h-94" target="Hscw7hNjwjnw59AHuLkt-12" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-92" source="cFT7xG2q82qPd6TsrK2h-95" target="cFT7xG2q82qPd6TsrK2h-99" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-93" source="cFT7xG2q82qPd6TsrK2h-99" target="Hscw7hNjwjnw59AHuLkt-13" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-90" source="cFT7xG2q82qPd6TsrK2h-100" target="cFT7xG2q82qPd6TsrK2h-104" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-91" source="cFT7xG2q82qPd6TsrK2h-104" target="Hscw7hNjwjnw59AHuLkt-14" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-96" source="cFT7xG2q82qPd6TsrK2h-105" target="cFT7xG2q82qPd6TsrK2h-108" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-97" source="cFT7xG2q82qPd6TsrK2h-108" target="Hscw7hNjwjnw59AHuLkt-15" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-98" source="cFT7xG2q82qPd6TsrK2h-110" target="a9b6q9AH5aq5r09KpQK2-1" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-1" source="cFT7xG2q82qPd6TsrK2h-115" target="cFT7xG2q82qPd6TsrK2h-126" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-3" source="cFT7xG2q82qPd6TsrK2h-116" target="cFT7xG2q82qPd6TsrK2h-127" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-99" source="a9b6q9AH5aq5r09KpQK2-1" target="Hscw7hNjwjnw59AHuLkt-16" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-2" source="cFT7xG2q82qPd6TsrK2h-126" target="Hscw7hNjwjnw59AHuLkt-17" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-4" source="cFT7xG2q82qPd6TsrK2h-127" target="Hscw7hNjwjnw59AHuLkt-18" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-69" source="w59AwYlCWCMRClqTKe76-2" target="w59AwYlCWCMRClqTKe76-10" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-71" source="w59AwYlCWCMRClqTKe76-3" target="w59AwYlCWCMRClqTKe76-15" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-70" source="w59AwYlCWCMRClqTKe76-10" target="w59AwYlCWCMRClqTKe76-8" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-72" source="w59AwYlCWCMRClqTKe76-15" target="w59AwYlCWCMRClqTKe76-11" /><edge id="w59AwYlCWCMRClqTKe76-25" source="w59AwYlCWCMRClqTKe76-17" target="w59AwYlCWCMRClqTKe76-19" /><edge id="w59AwYlCWCMRClqTKe76-29" source="w59AwYlCWCMRClqTKe76-17" target="w59AwYlCWCMRClqTKe76-20" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-88" source="w59AwYlCWCMRClqTKe76-19" target="w59AwYlCWCMRClqTKe76-24" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-94" source="w59AwYlCWCMRClqTKe76-20" target="w59AwYlCWCMRClqTKe76-31" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-89" source="w59AwYlCWCMRClqTKe76-24" target="w59AwYlCWCMRClqTKe76-21" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-95" source="w59AwYlCWCMRClqTKe76-31" target="w59AwYlCWCMRClqTKe76-22" /><edge id="w59AwYlCWCMRClqTKe76-33" source="w59AwYlCWCMRClqTKe76-34" target="w59AwYlCWCMRClqTKe76-51" /><edge id="w59AwYlCWCMRClqTKe76-35" source="w59AwYlCWCMRClqTKe76-37" target="w59AwYlCWCMRClqTKe76-40" /><edge id="w59AwYlCWCMRClqTKe76-36" source="w59AwYlCWCMRClqTKe76-37" target="w59AwYlCWCMRClqTKe76-38" /><edge id="w59AwYlCWCMRClqTKe76-244" source="w59AwYlCWCMRClqTKe76-40" target="w59AwYlCWCMRClqTKe76-42" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-47" source="w59AwYlCWCMRClqTKe76-42" target="w59AwYlCWCMRClqTKe76-90" /><edge id="w59AwYlCWCMRClqTKe76-43" source="w59AwYlCWCMRClqTKe76-45" target="w59AwYlCWCMRClqTKe76-47" /><edge id="w59AwYlCWCMRClqTKe76-44" source="w59AwYlCWCMRClqTKe76-45" target="w59AwYlCWCMRClqTKe76-85" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-53" source="w59AwYlCWCMRClqTKe76-47" target="w59AwYlCWCMRClqTKe76-87" /><edge id="w59AwYlCWCMRClqTKe76-48" source="w59AwYlCWCMRClqTKe76-49" target="w59AwYlCWCMRClqTKe76-45" /><edge id="w59AwYlCWCMRClqTKe76-50" source="w59AwYlCWCMRClqTKe76-51" target="w59AwYlCWCMRClqTKe76-58" /><edge id="w59AwYlCWCMRClqTKe76-52" source="w59AwYlCWCMRClqTKe76-53" target="w59AwYlCWCMRClqTKe76-66" /><edge id="w59AwYlCWCMRClqTKe76-245" source="w59AwYlCWCMRClqTKe76-53" target="w59AwYlCWCMRClqTKe76-108" /><edge id="w59AwYlCWCMRClqTKe76-55" source="w59AwYlCWCMRClqTKe76-54" target="w59AwYlCWCMRClqTKe76-80" /><edge id="w59AwYlCWCMRClqTKe76-56" source="w59AwYlCWCMRClqTKe76-58" target="w59AwYlCWCMRClqTKe76-54" /><edge id="w59AwYlCWCMRClqTKe76-57" source="w59AwYlCWCMRClqTKe76-58" target="w59AwYlCWCMRClqTKe76-53" /><edge id="w59AwYlCWCMRClqTKe76-59" source="w59AwYlCWCMRClqTKe76-61" target="w59AwYlCWCMRClqTKe76-37" /><edge id="w59AwYlCWCMRClqTKe76-60" source="w59AwYlCWCMRClqTKe76-61" target="w59AwYlCWCMRClqTKe76-49" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-57" source="w59AwYlCWCMRClqTKe76-64" target="w59AwYlCWCMRClqTKe76-86" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-37" source="w59AwYlCWCMRClqTKe76-66" target="w59AwYlCWCMRClqTKe76-95" /><edge id="w59AwYlCWCMRClqTKe76-67" source="w59AwYlCWCMRClqTKe76-51" target="w59AwYlCWCMRClqTKe76-61" /><edge id="w59AwYlCWCMRClqTKe76-68" source="w59AwYlCWCMRClqTKe76-61" target="w59AwYlCWCMRClqTKe76-62" /><edge id="w59AwYlCWCMRClqTKe76-69" source="w59AwYlCWCMRClqTKe76-62" target="w59AwYlCWCMRClqTKe76-64" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-51" source="w59AwYlCWCMRClqTKe76-71" target="w59AwYlCWCMRClqTKe76-88" /><edge id="w59AwYlCWCMRClqTKe76-72" source="w59AwYlCWCMRClqTKe76-45" target="w59AwYlCWCMRClqTKe76-71" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-45" source="w59AwYlCWCMRClqTKe76-74" target="w59AwYlCWCMRClqTKe76-91" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-43" source="w59AwYlCWCMRClqTKe76-76" target="w59AwYlCWCMRClqTKe76-92" /><edge id="w59AwYlCWCMRClqTKe76-77" source="w59AwYlCWCMRClqTKe76-38" target="w59AwYlCWCMRClqTKe76-74" /><edge id="w59AwYlCWCMRClqTKe76-78" source="w59AwYlCWCMRClqTKe76-38" target="w59AwYlCWCMRClqTKe76-76" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-39" source="w59AwYlCWCMRClqTKe76-80" target="w59AwYlCWCMRClqTKe76-94" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-41" source="w59AwYlCWCMRClqTKe76-82" target="w59AwYlCWCMRClqTKe76-93" /><edge id="w59AwYlCWCMRClqTKe76-83" source="w59AwYlCWCMRClqTKe76-54" target="w59AwYlCWCMRClqTKe76-82" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-49" source="w59AwYlCWCMRClqTKe76-85" target="w59AwYlCWCMRClqTKe76-89" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-58" source="w59AwYlCWCMRClqTKe76-86" target="w59AwYlCWCMRClqTKe76-96" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-54" source="w59AwYlCWCMRClqTKe76-87" target="w59AwYlCWCMRClqTKe76-97" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-52" source="w59AwYlCWCMRClqTKe76-88" target="w59AwYlCWCMRClqTKe76-98" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-50" source="w59AwYlCWCMRClqTKe76-89" target="w59AwYlCWCMRClqTKe76-99" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-48" source="w59AwYlCWCMRClqTKe76-90" target="w59AwYlCWCMRClqTKe76-100" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-46" source="w59AwYlCWCMRClqTKe76-91" target="w59AwYlCWCMRClqTKe76-101" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-44" source="w59AwYlCWCMRClqTKe76-92" target="w59AwYlCWCMRClqTKe76-102" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-42" source="w59AwYlCWCMRClqTKe76-93" target="w59AwYlCWCMRClqTKe76-103" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-40" source="w59AwYlCWCMRClqTKe76-94" target="w59AwYlCWCMRClqTKe76-104" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-38" source="w59AwYlCWCMRClqTKe76-95" target="w59AwYlCWCMRClqTKe76-105" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-35" source="w59AwYlCWCMRClqTKe76-108" target="w59AwYlCWCMRClqTKe76-109" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-36" source="w59AwYlCWCMRClqTKe76-109" target="w59AwYlCWCMRClqTKe76-110" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-55" source="w59AwYlCWCMRClqTKe76-113" target="w59AwYlCWCMRClqTKe76-115" /><edge id="w59AwYlCWCMRClqTKe76-114" source="w59AwYlCWCMRClqTKe76-62" target="w59AwYlCWCMRClqTKe76-113" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-56" source="w59AwYlCWCMRClqTKe76-115" target="w59AwYlCWCMRClqTKe76-111" /><edge id="w59AwYlCWCMRClqTKe76-116" source="YPgt3lzj57gcY4cnK-JQ-20" target="w59AwYlCWCMRClqTKe76-125" /><edge id="w59AwYlCWCMRClqTKe76-233" source="w59AwYlCWCMRClqTKe76-118" target="w59AwYlCWCMRClqTKe76-215" /><edge id="w59AwYlCWCMRClqTKe76-119" source="w59AwYlCWCMRClqTKe76-125" target="w59AwYlCWCMRClqTKe76-117" /><edge id="w59AwYlCWCMRClqTKe76-120" source="w59AwYlCWCMRClqTKe76-125" target="w59AwYlCWCMRClqTKe76-118" /><edge id="w59AwYlCWCMRClqTKe76-121" source="w59AwYlCWCMRClqTKe76-117" target="w59AwYlCWCMRClqTKe76-126" /><edge id="w59AwYlCWCMRClqTKe76-123" source="w59AwYlCWCMRClqTKe76-118" target="w59AwYlCWCMRClqTKe76-122" /><edge id="w59AwYlCWCMRClqTKe76-230" source="w59AwYlCWCMRClqTKe76-124" target="w59AwYlCWCMRClqTKe76-154" /><edge id="w59AwYlCWCMRClqTKe76-129" source="w59AwYlCWCMRClqTKe76-118" target="w59AwYlCWCMRClqTKe76-127" /><edge id="w59AwYlCWCMRClqTKe76-132" source="w59AwYlCWCMRClqTKe76-125" target="w59AwYlCWCMRClqTKe76-135" /><edge id="w59AwYlCWCMRClqTKe76-133" source="w59AwYlCWCMRClqTKe76-118" target="w59AwYlCWCMRClqTKe76-124" /><edge id="w59AwYlCWCMRClqTKe76-134" source="w59AwYlCWCMRClqTKe76-117" target="w59AwYlCWCMRClqTKe76-128" /><edge id="w59AwYlCWCMRClqTKe76-137" source="w59AwYlCWCMRClqTKe76-135" target="w59AwYlCWCMRClqTKe76-130" /><edge id="w59AwYlCWCMRClqTKe76-138" source="w59AwYlCWCMRClqTKe76-135" target="w59AwYlCWCMRClqTKe76-131" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-33" source="w59AwYlCWCMRClqTKe76-142" target="w59AwYlCWCMRClqTKe76-143" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-34" source="w59AwYlCWCMRClqTKe76-143" target="w59AwYlCWCMRClqTKe76-238" /><edge id="w59AwYlCWCMRClqTKe76-144" source="w59AwYlCWCMRClqTKe76-126" target="w59AwYlCWCMRClqTKe76-142" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-31" source="w59AwYlCWCMRClqTKe76-146" target="w59AwYlCWCMRClqTKe76-148" /><edge id="w59AwYlCWCMRClqTKe76-147" source="w59AwYlCWCMRClqTKe76-128" target="w59AwYlCWCMRClqTKe76-146" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-32" source="w59AwYlCWCMRClqTKe76-148" target="w59AwYlCWCMRClqTKe76-191" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-23" source="w59AwYlCWCMRClqTKe76-150" target="w59AwYlCWCMRClqTKe76-152" /><edge id="w59AwYlCWCMRClqTKe76-151" source="w59AwYlCWCMRClqTKe76-122" target="w59AwYlCWCMRClqTKe76-150" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-24" source="w59AwYlCWCMRClqTKe76-152" target="w59AwYlCWCMRClqTKe76-190" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-21" source="w59AwYlCWCMRClqTKe76-154" target="w59AwYlCWCMRClqTKe76-156" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-22" source="w59AwYlCWCMRClqTKe76-156" target="w59AwYlCWCMRClqTKe76-189" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-19" source="w59AwYlCWCMRClqTKe76-158" target="w59AwYlCWCMRClqTKe76-160" /><edge id="w59AwYlCWCMRClqTKe76-159" source="w59AwYlCWCMRClqTKe76-127" target="w59AwYlCWCMRClqTKe76-158" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-20" source="w59AwYlCWCMRClqTKe76-160" target="w59AwYlCWCMRClqTKe76-188" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-17" source="w59AwYlCWCMRClqTKe76-162" target="w59AwYlCWCMRClqTKe76-164" /><edge id="w59AwYlCWCMRClqTKe76-163" source="w59AwYlCWCMRClqTKe76-136" target="w59AwYlCWCMRClqTKe76-162" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-18" source="w59AwYlCWCMRClqTKe76-164" target="w59AwYlCWCMRClqTKe76-187" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-15" source="w59AwYlCWCMRClqTKe76-166" target="w59AwYlCWCMRClqTKe76-168" /><edge id="w59AwYlCWCMRClqTKe76-167" source="w59AwYlCWCMRClqTKe76-139" target="w59AwYlCWCMRClqTKe76-166" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-16" source="w59AwYlCWCMRClqTKe76-168" target="w59AwYlCWCMRClqTKe76-186" /><edge id="w59AwYlCWCMRClqTKe76-169" source="w59AwYlCWCMRClqTKe76-118" target="w59AwYlCWCMRClqTKe76-136" /><edge id="w59AwYlCWCMRClqTKe76-170" source="w59AwYlCWCMRClqTKe76-118" target="w59AwYlCWCMRClqTKe76-139" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-5" source="w59AwYlCWCMRClqTKe76-171" target="w59AwYlCWCMRClqTKe76-172" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-6" source="w59AwYlCWCMRClqTKe76-172" target="w59AwYlCWCMRClqTKe76-183" /><edge id="w59AwYlCWCMRClqTKe76-174" source="w59AwYlCWCMRClqTKe76-130" target="w59AwYlCWCMRClqTKe76-171" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-7" source="w59AwYlCWCMRClqTKe76-175" target="w59AwYlCWCMRClqTKe76-176" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-8" source="w59AwYlCWCMRClqTKe76-176" target="w59AwYlCWCMRClqTKe76-184" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-9" source="w59AwYlCWCMRClqTKe76-177" target="w59AwYlCWCMRClqTKe76-178" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-10" source="w59AwYlCWCMRClqTKe76-178" target="w59AwYlCWCMRClqTKe76-185" /><edge id="w59AwYlCWCMRClqTKe76-181" source="w59AwYlCWCMRClqTKe76-131" target="w59AwYlCWCMRClqTKe76-175" /><edge id="w59AwYlCWCMRClqTKe76-182" source="w59AwYlCWCMRClqTKe76-131" target="w59AwYlCWCMRClqTKe76-177" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-29" source="w59AwYlCWCMRClqTKe76-194" target="w59AwYlCWCMRClqTKe76-195" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-30" source="w59AwYlCWCMRClqTKe76-195" target="w59AwYlCWCMRClqTKe76-196" /><edge id="w59AwYlCWCMRClqTKe76-197" source="w59AwYlCWCMRClqTKe76-117" target="w59AwYlCWCMRClqTKe76-192" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-27" source="w59AwYlCWCMRClqTKe76-199" target="w59AwYlCWCMRClqTKe76-200" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-28" source="w59AwYlCWCMRClqTKe76-200" target="w59AwYlCWCMRClqTKe76-201" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-25" source="w59AwYlCWCMRClqTKe76-203" target="w59AwYlCWCMRClqTKe76-204" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-26" source="w59AwYlCWCMRClqTKe76-204" target="w59AwYlCWCMRClqTKe76-205" /><edge id="w59AwYlCWCMRClqTKe76-206" source="w59AwYlCWCMRClqTKe76-192" target="w59AwYlCWCMRClqTKe76-203" /><edge id="w59AwYlCWCMRClqTKe76-207" source="w59AwYlCWCMRClqTKe76-192" target="w59AwYlCWCMRClqTKe76-199" /><edge id="w59AwYlCWCMRClqTKe76-208" source="w59AwYlCWCMRClqTKe76-192" target="w59AwYlCWCMRClqTKe76-194" /><edge id="w59AwYlCWCMRClqTKe76-232" source="w59AwYlCWCMRClqTKe76-209" target="w59AwYlCWCMRClqTKe76-211" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-13" source="w59AwYlCWCMRClqTKe76-211" target="w59AwYlCWCMRClqTKe76-213" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-14" source="w59AwYlCWCMRClqTKe76-213" target="w59AwYlCWCMRClqTKe76-214" /><edge id="w59AwYlCWCMRClqTKe76-234" source="w59AwYlCWCMRClqTKe76-215" target="w59AwYlCWCMRClqTKe76-217" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-11" source="w59AwYlCWCMRClqTKe76-217" target="w59AwYlCWCMRClqTKe76-219" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-12" source="w59AwYlCWCMRClqTKe76-219" target="w59AwYlCWCMRClqTKe76-220" /><edge id="w59AwYlCWCMRClqTKe76-221" source="w59AwYlCWCMRClqTKe76-118" target="w59AwYlCWCMRClqTKe76-209" /><edge id="8-Nx9LjNzzRHe5Pq2xZX-77" source="mNuEp3emRqxpCXCxwbgn-49" target="mNuEp3emRqxpCXCxwbgn-57" /></edges></graph>

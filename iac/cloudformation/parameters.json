@@ -1,0 +1,14 @@
+[
+  {
+    "ParameterKey": "GitlabProjectId",
+    "ParameterValue": "decision-board-frontend"
+  },
+  {
+    "ParameterKey": "GitlabConnectionArn",
+    "ParameterValue": "arn:aws:codeconnections:ap-south-1:308797648038:connection/2fff5b5a-34d8-42fd-80af-b17e496d4788"
+  },
+  {
+    "ParameterKey": "BranchName",
+    "ParameterValue": "master"
+  }
+]

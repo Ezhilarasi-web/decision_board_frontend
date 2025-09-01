@@ -1,0 +1,6 @@
+Brand_ID,Total_Mentions,Positive_Mentions,Negative_Mentions,Neutral_Mentions,Sentiment_Score
+Brand_A,1000,700,150,150,55
+Brand_B,850,500,200,150,35.29411765
+Brand_C,920,600,180,140,45.65217391
+Brand_D,1100,800,120,180,61.81818182
+Brand_E,970,650,160,160,50.51546392

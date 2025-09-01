@@ -1,0 +1,257 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  Simplified CloudFormation template for deploying a React/TypeScript/Tailwind application
+  using S3 and CloudFront with default CloudFront domain for testing.
+
+Parameters:
+  # Build configuration
+  GitlabProjectId:
+    Type: String
+    Description: The GitLab project ID for the repository
+
+  BranchName:
+    Type: String
+    Default: master
+    Description: The Git branch to deploy
+
+  GitlabConnectionArn:
+    Type: String
+    Description: ARN of the AWS CodeStar connection to GitLab
+
+Resources:
+  #---------------------------------------------------------------------------
+  # S3 Bucket for Website Hosting
+  #---------------------------------------------------------------------------
+  WebsiteBucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain # Keep the bucket even if the stack is deleted
+    Properties:
+      # No public access - CloudFront will serve content
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      # Enable versioning for rollback capability
+      VersioningConfiguration:
+        Status: Enabled
+      # Optional: Configure lifecycle rules to manage old versions
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteOldVersions
+            Status: Enabled
+            NoncurrentVersionExpirationInDays: 30
+
+  # Bucket policy to allow CloudFront access to S3
+  WebsiteBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref WebsiteBucket
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              CanonicalUser: !GetAtt CloudFrontOriginAccessIdentity.S3CanonicalUserId
+            Action:
+              - s3:GetObject
+              - s3:ListBucket
+            Resource:
+              - !Sub ${WebsiteBucket.Arn}/*
+              - !Sub ${WebsiteBucket.Arn}
+
+  #---------------------------------------------------------------------------
+  # CloudFront Distribution for Content Delivery
+  # No custom domain, just using the default CloudFront domain
+  #---------------------------------------------------------------------------
+  WebsiteDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        # HTTP support for testing (no certificate needed)
+        ViewerCertificate:
+          CloudFrontDefaultCertificate: true
+
+        # Enable IPv6
+        IPV6Enabled: true
+
+        # HTTP version
+        HttpVersion: http2
+        DefaultRootObject: index.html
+
+        # Origin configuration
+        Origins:
+          - Id: S3Origin
+            DomainName: !GetAtt WebsiteBucket.RegionalDomainName
+            S3OriginConfig:
+              OriginAccessIdentity: !Sub origin-access-identity/cloudfront/${CloudFrontOriginAccessIdentity}
+
+        # Default behavior for requests
+        DefaultCacheBehavior:
+          TargetOriginId: S3Origin
+          ViewerProtocolPolicy: redirect-to-https # Updated to enforce HTTPS
+          AllowedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          CachedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          Compress: true
+          DefaultTTL: 86400 # 1 day
+          MinTTL: 0
+          MaxTTL: 31536000 # 1 year
+          ForwardedValues:
+            QueryString: false
+            Cookies:
+              Forward: none
+
+        # Enable for production
+        Enabled: true
+
+        # For single page applications (SPAs), redirect all paths to index.html
+        CustomErrorResponses:
+          - ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+            ErrorCachingMinTTL: 0
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+            ErrorCachingMinTTL: 0
+
+  # CloudFront Origin Access Identity for S3 access
+  CloudFrontOriginAccessIdentity:
+    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: Access identity for testing distribution
+
+  #---------------------------------------------------------------------------
+  # CodeBuild for CI/CD with GitLab Integration
+  #---------------------------------------------------------------------------
+  BuildProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Name: !Sub ${AWS::StackName}-build
+      Description: Test build project for React application
+      ServiceRole: !GetAtt CodeBuildServiceRole.Arn
+      Artifacts:
+        Type: NO_ARTIFACTS
+      Environment:
+        Type: LINUX_CONTAINER
+        ComputeType: BUILD_GENERAL1_MEDIUM
+        Image: aws/codebuild/standard:5.0
+        PrivilegedMode: false
+        EnvironmentVariables:
+          - Name: WebsiteBucket
+            Value: !Ref WebsiteBucket
+          - Name: WebsiteDistribution
+            Value: !Ref WebsiteDistribution
+      Source:
+        Type: GITLAB
+        Location: !Sub https://gitlab.com/ganitinc/productlets/${GitlabProjectId}.git
+        Auth:
+          Type: CODECONNECTIONS
+          Resource: !Ref GitlabConnectionArn
+        GitCloneDepth: 1
+        # Build specification
+        BuildSpec: |
+          version: 0.2
+          phases:
+            install:
+              runtime-versions:
+                nodejs: 18
+            pre_build:
+              commands:
+                - echo "Installing dependencies..."
+                - npm ci
+            build:
+              commands:
+                - echo "Building the application..."
+                - npm run build
+            post_build:
+              commands:
+                - echo "Deploying to S3..."
+                - aws s3 sync dist/ s3://$WebsiteBucket --delete
+                - echo "Invalidating CloudFront cache..."
+                - aws cloudfront create-invalidation --distribution-id $WebsiteDistribution --paths "/*"
+          artifacts:
+            base-directory: dist
+            files:
+              - '**/*'
+      Triggers:
+        Webhook: true
+        FilterGroups:
+          - - Type: EVENT
+              Pattern: PUSH
+            - Type: HEAD_REF
+              Pattern: !Sub ^refs/heads/${BranchName}$
+
+  # IAM Role for CodeBuild
+  CodeBuildServiceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: codebuild.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        - arn:aws:iam::aws:policy/CloudFrontFullAccess
+      Policies:
+        - PolicyName: CodeStarConnectionsPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - codestar-connections:UseConnection
+                  - codestar-connections:GetConnection
+                  - codestar-connections:GetConnectionToken
+                Resource: !Ref GitlabConnectionArn
+        - PolicyName: CloudWatchLogsPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource:
+                  - !Sub arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/codebuild/${AWS::StackName}-build
+                  - !Sub arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/codebuild/${AWS::StackName}-build:*
+
+Outputs:
+  StackARN:
+    Description: ARN of the CloudFormation stack
+    Value: !Ref AWS::StackId
+
+  StackName:
+    Description: Name of the CloudFormation stack
+    Value: !Ref AWS::StackName
+
+  WebsiteBucketName:
+    Description: Name of the S3 bucket storing the website files
+    Value: !Ref WebsiteBucket
+
+  CloudFrontDistributionId:
+    Description: ID of the CloudFront distribution
+    Value: !Ref WebsiteDistribution
+
+  CloudFrontDomainName:
+    Description: Default CloudFront domain name (use this URL to access your site)
+    Value: !GetAtt WebsiteDistribution.DomainName
+
+  WebsiteUrl:
+    Description: URL of the website (using CloudFront default domain)
+    Value: !Sub https://${WebsiteDistribution.DomainName}/
+
+  BuildProjectName:
+    Description: Name of the CodeBuild project
+    Value: !Ref BuildProject
